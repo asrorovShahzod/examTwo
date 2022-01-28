@@ -1,0 +1,247 @@
+.service {}
+
+.container {}
+
+.service__title {
+    padding-top: 190px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333333;
+}
+
+.service__box {
+    width: 100%;
+}
+
+.service__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
+}
+
+.service__list {
+    width: 190px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    padding: 30px 32px 42px 35px;
+    margin-right: 10px;
+    &:hover {
+        opacity: 0.7;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.service__list-button {
+    position: relative;
+}
+
+.service__listt {
+    width: 190px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    padding: 30px 32px 42px 35px;
+    margin-right: 10px;
+    &:hover {
+        opacity: 0.7;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.service__button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    left: -70px;
+    bottom: 50%;
+    &:hover {
+        background: #FFFFFF;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.service__buttonn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    bottom: 50%;
+    &:hover {
+        background: #FFFFFF;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.service__button-img {
+    position: absolute;
+    z-index: 2;
+    left: 35%;
+    bottom: 25%;
+}
+
+.service__link {
+    text-decoration: none;
+    img {
+        margin-left: 35px;
+    }
+}
+
+.service__text {
+    max-width: 120px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.osmotr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 70px 40px;
+    margin-top: -16px;
+    background: #FFFFFF;
+}
+
+.osmotr__pic {
+    width: 40%;
+}
+
+.osmotr__img {
+    width: 100%;
+    height: 332px;
+    border-radius: 5px;
+}
+
+.osmotr__info {
+    width: 55%;
+    padding-top: 30px;
+}
+
+.osmotr_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.osmotr_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-bottom: 10px;
+}
+
+.osmotr__textt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-bottom: 35px;
+}
+
+.osmotr__links {
+    display: flex;
+    align-items: center;
+}
+
+.osmotr_link {
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 3px;
+    margin-right: 21px;
+    position: relative;
+    &:hover {
+        background: #333333;
+        color: #FFBD54;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+    &::before {
+        content: " ";
+        position: absolute;
+        background-image: url(../../icons/money.svg);
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 21px;
+        left: 30px;
+        bottom: 30%;
+    }
+}
+
+.osmotr_linkk {
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+    position: relative;
+    &:hover {
+        background: #FFBD54;
+        color: #333333;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+    &::before {
+        content: " ";
+        position: absolute;
+        background-image: url(../../icons/document.svg);
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 21px;
+        left: 30px;
+        bottom: 30%;
+    }
+}

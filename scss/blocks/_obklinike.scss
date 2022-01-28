@@ -1,0 +1,65 @@
+.obklinike {}
+
+.container {}
+
+.obklinik__box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.obklinike__liner {
+    width: 140px;
+    border: 1px solid #DBDBDB;
+    margin: 0 auto;
+}
+
+.vtoroy {
+    margin-top: 43px;
+}
+
+.obklinike__title {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 43px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+    position: relative;
+    &::before {
+        content: " ";
+        position: absolute;
+        background-image: url(../../icons/kavichka_.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 50px;
+        height: 50px;
+        left: -55px;
+        top: -20px;
+    }
+    &::after {
+        content: " ";
+        position: absolute;
+        background-image: url(../../icons/kavichkaa.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 50px;
+        height: 50px;
+        right: -55px;
+        bottom: -20px;
+    }
+}
+
+.obklinike__text {
+    font-family: Futura PT;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    margin-top: 35px;
+}
