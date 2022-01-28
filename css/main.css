@@ -1108,6 +1108,7 @@ template {
 
 .follow {
   width: 100%;
+  padding-top: 150px;
 }
 
 .follow__box {
